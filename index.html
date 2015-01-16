@@ -11,6 +11,16 @@
 
 
     <body>
+        <!-- To tell old browsers where to get HTML5 elements -->
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+
+        <!-- To tell page where to find main JavaScript. -->
+        <script async src="js/main.js"></script>
+
+
+        <!-- To tell browsers when JavaScript is not loaded. -->
+        <noscript>This webpage does not have JavaScript enabled.</noscript>
 
 
         <header>
@@ -61,11 +71,11 @@
 
                 <form action="" method="POST">
 
-                    <label for ="nameField">Your Name</label>
-                    <input id="nameField" name="nameField" type="text" />
+                    <label for ="nameField">Your Name*</label>
+                    <input id="nameField" name="nameField" type="text" required placeholder="Your Name">
 
-                    <label for="emailAddress">Email Address</label>
-                    <input id="emailAddress" name="emailAddress" type="email" validate/>
+                    <label for="emailAddress">Email Address*</label>
+                    <input type="email" placeholder="Enter a valid email address" required id="emailAddress" name="emailAddress"  />
 
                     <label for="subscribe">Do you want to subscribe to my emails?</label>
                     <input id="subscribe" name="subscribe" type="checkbox" />
@@ -82,7 +92,7 @@
                     </select>
 
                     <label for="submit">Submit</label>
-                    <input id="submit" name="submit" type="button" value="submit"/>
+                    <input type="submit" id="submit" name="submit" value="submit"/>
 
                 </form>
 
@@ -95,18 +105,6 @@
             <p>Melissa Thompson. All rights reserved. &copy; 2015.</p>
 
         </footer>
-
-
-        <!-- To tell old browsers where to get HTML5 elements -->
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-
-
-        <!-- To tell page where to find main JavaScript. -->
-        <script async src="js/main.js"></script>
-
-
-        <!-- To tell browsers when JavaScript is not loaded. -->
-        <noscript>This webpage does not have JavaScript enabled.</noscript>
 
 
     </body>
