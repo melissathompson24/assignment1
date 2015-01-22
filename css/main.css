@@ -3,3 +3,271 @@ article, aside, figure, footer, header, nav, section, form {
 	display: block;
 }
 
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	width: 100%;  /*for Firefox*/
+	background-color: #859899;
+	font-family: myriad pro, linotype univers, sans-serif;
+	color: #FFF;
+}
+
+header {
+	display: -webkit-box; /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+	display: -moz-box;  /* OLD: Firefox */
+	display: -ms-flexbox; /* MID: IE 10 */
+	display: -webkit-flex; /* NEW, Chrome 21–28, Safari 6.1+ */
+	display: flex; /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
+
+	-ms-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+
+#intro, #logo, nav {
+	display: inline-block;
+}
+
+#intro {
+	margin-left: 1em;
+	text-align: center;
+}
+
+p#name {
+	font-size: 1.5em;
+}
+
+p#tag {
+	margin-top: -1.5em;
+}
+
+#logo {
+	margin-top: .5em;
+}
+
+#am, #think, #do, #contactMe {
+	display: inline-block;
+	margin: 1em .5em 0 .5em;
+}
+
+main {
+	margin-bottom: 2em;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 2.5em;
+	margin: 2em 0 -1em 0;
+	font-family: lucida calligraphy, serif;
+}
+
+h1 b {
+	font-size: 1.5em;
+	font-family: myriad pro, linotype univers, sans-serif;
+}
+
+h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 2em;
+}
+
+p {
+	text-align: center;
+}
+
+p.bold {
+	font-weight: bold;
+}
+
+p.indent {
+	margin-top: -.75em;
+	padding-left: 1.5em;
+}
+
+a {
+	color: #95f2f9;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.topStripe, .bottomStripe {
+	background-color: #5d6868;
+	padding: .2em 1em;
+}
+
+.topStripe {
+	margin-top: 3em;
+}
+
+.bottomStripe {
+	margin-top: -.4em;
+}
+
+.topStripe p {
+	font-size: 1.25em;
+	text-align: left;
+	font-family: lucida calligraphy, serif;
+}
+
+.bottomStripe p {
+	font-size: 1.25em;
+	text-align: right;
+	font-family: lucida calligraphy, serif;
+}
+
+#bannerPic {
+	display: -webkit-box; /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+	display: -moz-box;  /* OLD: Firefox */
+	display: -ms-flexbox; /* MID: IE 10 */
+	display: -webkit-flex; /* NEW, Chrome 21–28, Safari 6.1+ */
+	display: flex; /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
+
+	-ms-justify-content: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+
+	align-items: center;
+
+	background-color: #61c8d5;
+}
+
+#bannerPicHive {
+	display: -webkit-box; /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+	display: -moz-box;  /* OLD: Firefox */
+	display: -ms-flexbox; /* MID: IE 10 */
+	display: -webkit-flex; /* NEW, Chrome 21–28, Safari 6.1+ */
+	display: flex; /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
+
+	-ms-justify-content: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+
+	align-items: center;
+
+	background-color: #eac78b;
+}
+
+#bee, #cloud, #hive {
+	display: inline-block;
+}
+
+#bee img:last-child {
+	display:none;
+}
+
+#bee:hover img:first-child {
+	display:none;
+}
+
+#bee:hover img:last-child {
+	display: inline-block;
+}
+
+
+#cloud img:last-child {
+	display:none;
+}
+
+#cloud:hover img:first-child {
+	display:none;
+}
+
+#cloud:hover img:last-child {
+	display: inline-block;
+}
+
+#hive img:last-child {
+	display:none;
+}
+
+#hive:hover img:first-child {
+	display:none;
+}
+
+#hive:hover img:last-child {
+	display: inline-block;
+}
+
+#contact {
+	display: -webkit-box; /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+	display: -moz-box;  /* OLD: Firefox */
+	display: -ms-flexbox; /* MID: IE 10 */
+	display: -webkit-flex; /* NEW, Chrome 21–28, Safari 6.1+ */
+	display: flex; /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
+
+	-ms-justify-content: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+
+	align-items: flext-start;
+}
+
+.labelInput {
+	margin-top: 1em;
+}
+
+
+article {
+	width: 650px;
+	margin: 0 auto;
+}
+
+article p {
+	text-align: left;
+	padding-bottom: 1em;
+}
+
+section#resume {
+	width: 650px;
+	margin: 0 auto;
+}
+
+nav#resumeNav {
+	margin: 2em 0;
+}
+
+nav#resumeNav a, aside#resume a:hover {
+	padding-right: 1em;
+}
+
+section#resume p {
+	text-align: left;
+	margin-left: 1.5em;
+}
+
+section#resume li {
+	padding-bottom: .5em;
+}
+
+section#portfolio img {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+footer {
+	background-color: #5d6868;
+	padding: 1em;
+}
+
+footer p {
+	text-align: center;
+}
+

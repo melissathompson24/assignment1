@@ -13,42 +13,64 @@
     <body>
 
 
-        <header>
+       <header>
+
+            <div id="intro">
+                <p id="name">MELISSA THOMPSON</p>
+                <p id="tag">Designer. Manager. Planner.</p>
+            </div> 
 
 
             <!-- My brand/Logo area -->
-            <section>
+            <section id="logo">
 
-                <p>Melissa Thompson.</p>
-                <img src="images/bee.png" alt="Image of a honey bee.">
+                <img src="images/beeVertical100px.png" alt="image of an abstract bee.">
 
             </section>
-        
+
+       
 
             <nav>
 
                 <a name="top"></a>
-                <p>who i <a href="index.html">AM</a></p>
-                <p>what i <a href="blog.html">THINK</a></p>
-                <p>what i <a href="resume.html">DO</a></p>
-                <a href="index.html/#contact">CONTACT</a>
+                <div id="am"><p>who i <a href="index.html">AM</a>.</p></div>
+                <div id="think"><p>what i <a href="blog.html">THINK</a>.</p></div>
+                <div id="do"><p>what i <a href="resume.html">DO</a>.</p></div>
+                <div id="contactMe"><p><a href="index.html#contact">CONTACT</a>.</p></div>
 
-            </nav>
+            </nav>   
+
 
         </header>
 
 
        <!-- Main content area -->
-        <section>
+        <main>
 
-            <!-- What I think. -->
-            <section>
+            <h1>what i <b>THINK</b>.</h1>
 
-                <h1>what i THINK.</h1>
+            <div class="topStripe">
+                  <p>I see the big picture...</p>
+                </div>
+
+                <div id="bannerPic">
+
+                    <a href="blog.html" id="cloud"> 
+                        <img src="images/cloud5.png" alt="Think" />
+                        <img src="images/cloud5_hover.png" alt="Think" />
+                    </a>
+
+                </div>
+
+
+                 <div class="bottomStripe">
+                    <p>...and I'm good at the details to get there.</p>
+                </div>
+
 
                 <article>
 
-                    <h1>About Section 508 Standards, Universal Design, and Accessibility Approaches</h1>
+                    <h2>About Section 508 Standards, Universal Design, and Accessibility Approaches</h2>
 
                     <p>Published on <time datetime="2014-01-15" pubdate>January 15, 2014</time>.</p>
 
@@ -62,16 +84,20 @@
 
                     <p>As the <a href="http://www.section508.gov/summary-section508-standards">Section 508 website</a> goes on to explain, this law covers the following systems developed under, for, or when used by, the federal government:</p>
 
-                    <ul>
-                        <li>software applications and operating systems</li>
-                        <li>web-based information or applications</li>
-                        <li>telecommunication products</li>
-                        <li>video and multimedia products</li>
-                        <li>self-contained, closed products (e.g., information kiosks, calculators, and fax machines)</li>
-                        <li>desktop and portable computers</li>
-                    </ul>
+                    <blockquote cite="http://www.section508.gov/summary-section508-standards">
 
-                    <p>As I became more familiar with this law, I also became aware of the complementary Universal Design movement that is become more widespread in the field of instructional design. Basically Universal Design centers around the idea to “<a href="http://www.universaldesign.com/universal-design.html">[make] things safer, easier and more convenient for everyone.</a>” </p>
+                        <ul>
+                            <li>software applications and operating systems</li>
+                            <li>web-based information or applications</li>
+                            <li>telecommunication products</li>
+                            <li>video and multimedia products</li>
+                            <li>self-contained, closed products (e.g., information kiosks, calculators, and fax machines)</li>
+                            <li>desktop and portable computers</li>
+                        </ul>
+
+                    </blockquote>
+
+                    <p>As I became more familiar with this law, I also became aware of the complementary Universal Design movement that is become more widespread in the field of instructional design. Basically Universal Design centers around the idea to <q cite="http://www.universaldesign.com/universal-design.html"><a href="http://www.universaldesign.com/universal-design.html">[make] things safer, easier and more convenient for everyone.</a></q> </p>
 
                     <p>Applying Universal Design principles to designing systems and products would mean that they would be designed to allow anyone to access the information in a variety of ways. The development of a video can be used as an example of this principle: Not only would the video be developed to be watched, but captioning would also be included as an option, and possibly a script made available as well. This would allow a person to access the video in the way that make it easiest for that person to process the information, whether it be through watching, listening, or reading the information.</p>
 
@@ -94,11 +120,8 @@
                      <a href="#top">Back to top</a>
 
                 </article>
-               
-              
-            </section>
 
-        </section>
+        </main>
 
         <footer>
 
