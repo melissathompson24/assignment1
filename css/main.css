@@ -224,7 +224,8 @@ a:hover {
 
 
 article {
-	width: 650px;
+	max-width: 75%;
+	min-width: 300px;
 	margin: 0 auto;
 }
 
@@ -234,7 +235,8 @@ article p {
 }
 
 section#resume {
-	width: 650px;
+	width: 75%;
+	min-width: 300px;
 	margin: 0 auto;
 }
 
