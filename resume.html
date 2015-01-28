@@ -14,40 +14,14 @@
 
 
         <header>
-
-            <div id="intro">
-                <p id="name">MELISSA THOMPSON</p>
-                <p id="tag">Designer. Manager. Planner.</p>
-            </div> 
-
-
-            <!-- My brand/Logo area -->
-            <section id="logo">
-
-                <img src="images/beeVertical100px.png" alt="image of an abstract bee.">
-
-            </section>
-
-       
-
-            <nav>
-
-                <a name="top"></a>
-                <div id="am"><p>who i <a href="index.html">AM</a>.</p></div>
-                <div id="think"><p>what i <a href="blog.html">THINK</a>.</p></div>
-                <div id="do"><p>what i <a href="resume.html">DO</a>.</p></div>
-                <div id="contactMe"><p><a href="index.html#contact">CONTACT</a>.</p></div>
-
-            </nav>   
-
-
+            <!-- Header content called from main.js -->
         </header>
 
 
         <!-- Main content area -->
         <main>
 
-            <h1>what i <b>DO</b>.</h1>
+            <h1>what i <em>DO</em>.</h1>
 
             <div class="topStripe">
                   <p>I see the big picture...</p>
@@ -85,13 +59,17 @@
             <a href="#education">Education</a>
 
         </nav>
+        
 
-            <!-- Summary Section -->
-            <section>
+        <!-- Summary Section -->
+        <section id="summary">
+            <button id="summaryButton">-</button>
 
-                <a name="summary"></a>
+            <h2>A Brief Summary</h2>
 
-                <h2>A Brief Summary</h2>
+            <section id="collapseSummary">
+
+                <a name="summary"></a>                
 
                 <p>With over 11 years of successful experience in managing teams to coordinate technology management, web development, training logistics, office operations, and marketing and branding, I am guided by an intrinsic drive to constantly learn and challenge myself.</p>
 
@@ -104,48 +82,58 @@
                 <a href="#top">Back to top</a>
 
             </section>
+        </section>
 
 
-            <!-- Skills Section -->
-            <section>
+        <!-- Skills Section -->
+        <section id="skills">
 
-                <a name="skills"></a>
+            <a name="skills"></a>
 
-                <h2>Skills</h2>
+            <button id="skillsButton">-</button>
 
-                    <ul>
-                        <li>Adobe Illustrator</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe InDesign</li>
-                        <li>Adobe Captivate</li>
-                        <li>Microsoft Office Suite</li>
-                        <li>Relational Dababases</li>
-                        <li>MySQL</li>
-                        <li>Universal Design</li>
-                        <li>Section 508 Standards</li>
-                        <li>Designing for Accessibility</li>
-                        <li>Blackboard</li>
-                        <li>Canvas</li>
-                        <li>HTML5</li>
-                        <li>CSS</li>
-                        <li>jQuery</li>
-                        <li>WordPress</li>
-                        <li>Joomla</li>
-                        <li>Project Management</li>
-                    </ul>
+            <h2>Skills</h2>
+
+            <section id="collapseSkills">
+
+                <ul>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe InDesign</li>
+                    <li>Adobe Captivate</li>
+                    <li>Microsoft Office Suite</li>
+                    <li>Relational Dababases</li>
+                    <li>MySQL</li>
+                    <li>Universal Design</li>
+                    <li>Section 508 Standards</li>
+                    <li>Designing for Accessibility</li>
+                    <li>Blackboard</li>
+                    <li>Canvas</li>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>jQuery</li>
+                    <li>WordPress</li>
+                    <li>Joomla</li>
+                    <li>Project Management</li>
+                </ul>
 
 
-                <a href="#top">Back to top</a>
+            <a href="#top">Back to top</a>
 
             </section>
+        </section>
 
 
-            <!-- Experience Section -->
-            <section>
+        <!-- Experience Section -->
+        <section id="experience">
+            
+            <a name="experience"></a>
 
-                <a name="experience"></a>
-
-                <h2>Experience</h2>
+            <button id="experienceButton">-</button>
+            
+            <h2>Experience</h2>
+                    
+            <section id="collapseExperience">
 
                 <h3>DESIGN & OPERATIONS MANAGER</h3>
 
@@ -210,14 +198,19 @@
                 <a href="#top">Back to top</a>
 
             </section>
+        </section>
 
 
-            <!-- Portfolio Section -->
-            <section id="portfolio">
+       <!-- Portfolio Section -->
+        <section id="portfolio">
 
-                <a name="portfolio"></a>
+            <button id="portfolioButton">-</button>
+
+            <a name="portfolio"></a>
 
                 <h2>Portfolio</h2>
+
+            <section id="collapsePortfolio">
 
                 <p>Below is a brief selection of past design projects.</p>
 
@@ -240,14 +233,19 @@
                 <a href="#top">Back to top</a>
 
             </section>
+        </section>
 
 
-            <!-- Education Section -->
-            <section>
+        <!-- Education Section -->
+        <section id="education">
+
+            <button id="educationButton">-</button>
 
                 <a name="education"></a>
 
                 <h2>Education</h2>
+
+                <section id="collapseEducation">
 
                 <p class="bold">University of Denver - University College</p>
                 <p class="indent">Information and Communications Technology - Master's Program, Web Development</p>
@@ -260,6 +258,7 @@
                 <a href="#top">Back to top</a>
 
             </section>
+        </section>
 
        </section>
 
@@ -268,9 +267,7 @@
 
 
         <footer>
-
-            <p>Melissa Thompson. All rights reserved. &copy; 2015.</p>
-
+            <!-- Footer content called from main.js -->
         </footer>
 
 

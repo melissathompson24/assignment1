@@ -31,6 +31,7 @@ header {
 
 #intro, #logo, nav {
 	display: inline-block;
+	margin-top: 1em;
 }
 
 #intro {
@@ -42,17 +43,16 @@ p#name {
 	font-size: 1.5em;
 }
 
-p#tag {
+/*p#tag {
 	margin-top: -1.5em;
 }
-
+*/
 #logo {
 	margin-top: .5em;
 }
 
-#am, #think, #do, #contactMe {
-	display: inline-block;
-	margin: 1em .5em 0 .5em;
+nav {
+	margin-right: 1em;
 }
 
 main {
@@ -67,9 +67,10 @@ h1 {
 	font-family: lucida calligraphy, serif;
 }
 
-h1 b {
+h1 em {
 	font-size: 1.5em;
 	font-family: myriad pro, linotype univers, sans-serif;
+	font-style: normal;
 }
 
 h2 {
@@ -241,6 +242,7 @@ section#resume {
 }
 
 nav#resumeNav {
+	display: block;
 	margin: 2em 0;
 }
 
@@ -257,11 +259,47 @@ section#resume li {
 	padding-bottom: .5em;
 }
 
-section#portfolio img {
+section#summary, section#skills, section#experience, section#portfolio, section#education {
+	display: block;
+}
+
+section#resume h2, img#summaryButton, img#skillsButtonimg, img#experienceButton, img#portfolioButton, img#educationButton {
+	display: inline-block;
+}
+
+button#summaryButton, button#experienceButton, button#skillsButton, button#portfolioButton, button#educationButton {
+	background-color: #61c8d5;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1em; 
+}
+
+button#summaryButton:hover, button#experienceButton:hover, button#skillsButton:hover, button#portfolioButton:hover, button#educationButton:hover { 
+	background-color: #95f2f9;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+section#collapseSummary {
+	-moz-transition: all 1s; 
+	-webkit-transition: all 1s;  
+	-ms-transition: all 1s;  
+	-o-transition: all 1s;  
+	transition: all 1s; 
+} 
+
+section#collapsePortfolio img {
 	display: block;
 	width: 200px;
 	margin: 0 auto;
 	padding: 1em;
+}
+
+.hidden {
+	display:none;
 }
 
 footer {
@@ -269,7 +307,7 @@ footer {
 	padding: 1em;
 }
 
-footer p {
+footer p#footerID{
 	text-align: center;
 }
 
